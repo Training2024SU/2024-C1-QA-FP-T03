@@ -7,6 +7,7 @@ Feature: confirmar datos y terminar transaccion
   @finalfeliz
   Scenario: se confirman los datos para una transaccion exitosa
     Given el usuario ingresado esta en el modulo de confirmacion de metodo de pago
+    And tiene producto/s en el carro, metodos de pago y de envio registrados
     When  el usuario confirma su metodo de pago y facturacion
     And el usuario confirma su direccion de envio
     And el usuario confirma la facturacion de su carrito
