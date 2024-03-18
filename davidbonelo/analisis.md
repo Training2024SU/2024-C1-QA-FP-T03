@@ -29,3 +29,13 @@
 - Varios productos en el carrito
 - Ubicacion de envío a distancia cercana
 - Ubicacion de envío a distancia lejana
+
+## Casos de prueba gherkin
+
+- [Añadir al carrito](./features/add_to_cart.feature)
+- [Compra de productos](./features/buy_products.feature)
+- [Busqueda de productos](./features/search_by_name.feature)
+
+## Conslusión
+
+Las pruebas se diseñaron cubren las principales funcionalidades de la historia de usuario, asegurando la calidad al reducir la posibilidad que se presenten fallos en producción
